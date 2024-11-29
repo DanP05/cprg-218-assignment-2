@@ -9,7 +9,7 @@ nav{
     background-color: rgb(158, 158, 129);
 }
 button{
-    font-size: 20px;
+    font-size:15px;
     background-color: black;
     font-weight: bold;
     color: white;
@@ -19,7 +19,8 @@ button{
 body{
     font-family: sans-serif;
     background-color: black;
-    color: white
+    color: white;
+    margin: 0
 
    
 }
@@ -27,14 +28,17 @@ h1{
     padding-right: 15px;
     padding-left: 15px;
     color: beige;
+    margin: 0
+
 }
 h2{
     color: beige;
-    text-align: left;
+    text-align: center;
+
 }
 
 #image{
-    max-width: 90%;
+    max-width: 70%;
     margin-top: 25px;
     
 }
@@ -62,16 +66,20 @@ h2{
         max-width: 60%;
         padding: 0px 20px 15px
     
-        
+       
     }
+  
     .post{
         position: absolute;
         width: 90%;
         left: 5.3%;
-        top: 10%;
+        top: 15%;
         background-color: beige;
         color: black;
         text-align: justify;
+    }
+    h1{
+        padding: 5px 8px 5px;
     }
     h2{
         color: rgb(158, 158, 129);
@@ -87,7 +95,7 @@ h2{
             display: flex; 
             align-items: center;
             justify-content: space-between;
-        }
+            padding: 10px;
 
         #image{
             float:right;
