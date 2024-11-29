@@ -96,10 +96,11 @@ h2{
             align-items: center;
             justify-content: space-between;
             padding: 10px;
+        }
 
         #image{
             float:right;
-            max-width: 50%;
+            max-width: 35%;
             padding-left: 15px;
             
         }
@@ -111,4 +112,5 @@ h2{
             background-color: beige;
         }
 
-}
+ }
+
